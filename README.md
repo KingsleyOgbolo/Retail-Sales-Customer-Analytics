@@ -193,3 +193,86 @@ The process involved:
 The dashboard presents customer segmentation through two interactive visualisations:
 
 * **Customer Distribution by Segment:** Shows the distinct number of customers with
+
+## Key Business Findings and Insights
+
+### 1. Overall Sales Performance
+
+The analysis revealed approximately **£9.76 million in net sales** during the reporting period, after accounting for negative-quantity transactions associated with returns.
+
+The positive-sales dataset generated approximately **£10.66 million**, highlighting the importance of distinguishing positive transaction values from net sales.
+
+**Business insight:** Reporting net sales alongside positive sales provides a more complete picture of retail performance and the financial effect of returns.
+
+### 2. Customer Behaviour and Purchasing Patterns
+
+Customer purchasing behaviour was evaluated using three key measures:
+
+* **Net Sales:** The total revenue attributable to customers.
+* **Purchase Frequency:** The number of distinct purchase invoices.
+* **Average Order Value (AOV):** Customer net sales divided by purchase frequency.
+
+The analysis enables comparisons between customers who generate high overall revenue, those who purchase frequently, and those who place high-value orders.
+
+**Business insight:** High purchase frequency does not necessarily indicate high average order value. Businesses should consider multiple customer metrics when identifying valuable customers.
+
+### 3. Customer Segmentation Results
+
+The customer segmentation analysis identified four behavioural groups based on spending and purchasing frequency.
+
+The following results were obtained from the overall customer segmentation analysis:
+
+| Customer Segment                |     Net Sales (£) | Revenue Contribution |
+| ------------------------------- | ----------------: | -------------------: |
+| High-Value Loyal Customers      |     £7,091,256.52 |                85.3% |
+| Low-Engagement Customers        |       £549,129.17 |                 6.6% |
+| High-Value Occasional Customers |       £537,964.11 |                 6.5% |
+| Regular Low-Spending Customers  |       £134,945.15 |                 1.6% |
+| **Total Segmented Revenue**     | **£8,313,294.95** |             **100%** |
+
+*Percentages are rounded to one decimal place.*
+
+### 4. High-Value Loyal Customers Dominate Segmented Revenue
+
+High-Value Loyal Customers contributed approximately **85.3% of total segmented revenue**, making them the most financially significant customer group in this analysis.
+
+This suggests that revenue is highly concentrated among customers who combine relatively high spending with frequent purchasing.
+
+**Business insight:** Customer retention initiatives should prioritise this segment because changes in its purchasing behaviour could materially affect revenue.
+
+### 5. Opportunities Among Other Customer Segments
+
+The remaining customer segments contribute approximately 14.7% of segmented revenue.
+
+Each segment presents different business opportunities:
+
+**High-Value Occasional Customers:** Encourage repeat purchases through targeted communication, personalised recommendations, and loyalty incentives.
+
+**Regular Low-Spending Customers:** Explore cross-selling and product-bundling strategies to increase spending per order.
+
+**Low-Engagement Customers:** Evaluate targeted re-engagement campaigns while considering the cost of acquiring additional purchases.
+
+### 6. Country-Level Analysis
+
+The dashboard includes an interactive Country Slicer, allowing users to examine sales performance and customer behaviour across geographical markets.
+
+Users can explore:
+
+* Net sales by selected country.
+* Customer counts and purchase activity.
+* Top-performing products and customers.
+* Customer segment distribution.
+* Revenue contribution by customer segment.
+
+**Business insight:** Country-level filtering supports market comparisons and helps identify differences in purchasing behaviour across geographical locations.
+
+### 7. Interpretation and Limitations
+
+Overall net sales and segmented revenue represent different analytical populations and should not be interpreted as directly equivalent.
+
+Overall net sales include qualifying transactions without customer identifiers, while customer segmentation focuses on identifiable customers meeting the segmentation criteria.
+
+The customer segmentation results are descriptive and do not establish that a particular marketing intervention will increase sales.
+
+The analysis provides a foundation for further investigation and evidence-based business recommendations.
+
