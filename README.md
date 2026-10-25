@@ -14,6 +14,9 @@ The project examines sales performance, purchasing patterns, product performance
 
 An interactive Excel dashboard allows users to explore key performance indicators and compare business performance across countries.
 
+<img width="975" height="1256" alt="image" src="https://github.com/user-attachments/assets/5bba3a48-1b5e-487f-b384-f2f337c79d4f" />
+
+
 ## Project Objectives
 
 1. Analyse overall retail sales performance using key business metrics.
