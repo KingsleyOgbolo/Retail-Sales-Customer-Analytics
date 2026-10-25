@@ -119,3 +119,77 @@ Transactions without customer identifiers contribute to overall net sales where 
 
 Consequently, customer segmentation results represent the identifiable customer population rather than the entire transaction dataset.
 
+## Customer Segmentation Methodology
+
+### 1. Overview
+
+Customer segmentation was performed to identify differences in purchasing behaviour and customer value.
+
+The analysis classified identifiable customers into four behavioural segments using two key metrics:
+
+* **Net Sales:** Total customer spending after accounting for returns.
+* **Purchase Frequency:** Number of distinct purchase invoices associated with each customer.
+
+The segmentation was performed at the customer-country level using Power Query.
+
+This approach enables the dashboard to compare customer behaviour across different geographical markets.
+
+### 2. Segmentation Criteria
+
+Customers were classified using a net sales threshold of **£657.55** and a purchase frequency threshold of **two orders**.
+
+The following segmentation rules were applied:
+
+| Customer Segment                | Net Sales | Purchase Frequency |
+| ------------------------------- | --------- | ------------------ |
+| High-Value Loyal Customers      | ≥ £657.55 | More than 2 orders |
+| High-Value Occasional Customers | ≥ £657.55 | 1–2 orders         |
+| Regular Low-Spending Customers  | < £657.55 | More than 2 orders |
+| Low-Engagement Customers        | < £657.55 | 1–2 orders         |
+
+Only customer-country records with positive net sales and at least one purchase were included in the segmentation.
+
+The £657.55 threshold is a fixed analytical cutoff used in this project rather than a universally applicable definition of a high-value customer.
+
+### 3. Customer Segment Descriptions
+
+**High-Value Loyal Customers**
+
+Customers who generate relatively high net sales and purchase frequently.
+
+These customers are particularly important because they combine strong spending with repeated purchasing activity.
+
+**High-Value Occasional Customers**
+
+Customers who generate relatively high net sales but purchase infrequently.
+
+They may represent opportunities for targeted retention campaigns and repeat-purchase incentives.
+
+**Regular Low-Spending Customers**
+
+Customers who purchase frequently but generate relatively low net sales.
+
+They may respond to product recommendations, cross-selling, and initiatives designed to increase average order value.
+
+**Low-Engagement Customers**
+
+Customers who generate relatively low net sales and purchase infrequently.
+
+This segment may benefit from carefully targeted re-engagement campaigns.
+
+### 4. Segmentation Implementation
+
+The segmentation workflow was developed using Power Query.
+
+The process involved:
+
+1. Aggregating net sales by customer and country.
+2. Calculating purchase frequency using distinct invoice counts.
+3. Combining customer spending and purchase frequency.
+4. Applying conditional segmentation rules.
+5. Loading the resulting customer segmentation table into the Excel Data Model.
+6. Connecting the segmentation analysis to the dashboard's Country Slicer.
+
+The dashboard presents customer segmentation through two interactive visualisations:
+
+* **Customer Distribution by Segment:** Shows the distinct number of customers with
