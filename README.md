@@ -279,3 +279,65 @@ The customer segmentation results are descriptive and do not establish that a pa
 
 The analysis provides a foundation for further investigation and evidence-based business recommendations.
 
+## How to Use This Project
+
+### Requirements
+
+To explore the interactive dashboard, you will need:
+
+* Microsoft Excel for Windows.
+* A version of Excel that supports Power Query, Power Pivot, and the Excel Data Model.
+
+### Download the Project
+
+1. Open this GitHub repository.
+2. Click the green **Code** button.
+3. Select **Download ZIP**.
+4. Extract the downloaded ZIP file.
+5. Open `Retail_Sales_Analysis.xlsx` in Microsoft Excel.
+
+### Explore the Dashboard
+
+1. Open the **Retail_Dashboard** worksheet.
+2. Review the four key performance indicators:
+
+   * Total Net Sales
+   * Total Unique Customers
+   * Total Purchase Orders
+   * Average Order Value
+3. Examine the seven charts to understand sales performance and customer behaviour.
+4. Use the **Country Slicer** to filter the dashboard by geographical market.
+5. Clear the slicer filter to return to the overall dashboard view.
+
+### Explore the Analytical Model
+
+The workbook contains Power Query transformations, Power Pivot data modelling, and PivotTable-based analysis.
+
+Users can explore the underlying analytical tables and measures to understand how the dashboard was developed.
+
+### Important Notes
+
+* The dashboard is interactive when opened in a compatible desktop version of Microsoft Excel.
+* GitHub displays the dashboard screenshot but does not provide the full interactive Excel experience.
+* The workbook contains an Excel Data Model and may require additional memory and processing time when opening or refreshing.
+* The original dataset is publicly available from the UCI Machine Learning Repository.
+* Data refresh may require access to the original source files and valid Power Query source paths.
+
+
+## Project Skills Demonstrated
+
+**Data Analytics:** Data cleaning, exploratory analysis, KPI development, customer segmentation, and business insights.
+
+**Excel:** Advanced Excel, Power Query, Power Pivot, PivotTables, PivotCharts, and interactive slicers.
+
+**Business Intelligence:** Dashboard development, performance monitoring, customer behaviour analysis, and data visualisation.
+
+**Business Analysis:** Revenue analysis, customer value assessment, market comparison, and evidence-based recommendations.
+
+## Data Source and Attribution
+
+UCI Machine Learning Repository. *Online Retail Dataset.*
+
+https://archive.ics.uci.edu/dataset/352/online+retail
+
+The dataset is used for educational and portfolio development purposes.
